@@ -1,5 +1,5 @@
 .container {
-    width: 1440px;
+    width: 90%;
     }
 
 body {
@@ -10,7 +10,7 @@ body {
 width:18%;
 height: 420px;
 background-color: hsl(0, 0%, 100%);
-margin-left: 480px;
+margin-left: auto;
 margin-right: auto;
 margin-top: 150px;
 border-radius: 15px;
@@ -52,5 +52,11 @@ img {
 @media screen and (max-width: 375px) {
         body {
           width: 375px;
+        }
+      }
+
+      @media screen and (max-width: 1440px) {
+        body {
+          width: 1440px;
         }
       }
