@@ -1,0 +1,56 @@
+.container {
+    width: 1440px;
+    }
+
+body {
+    background-color:hsl(212, 45%, 89%);
+}
+
+.box1 {
+width:18%;
+height: 420px;
+background-color: hsl(0, 0%, 100%);
+margin-left: 480px;
+margin-right: auto;
+margin-top: 150px;
+border-radius: 15px;
+position: relative;
+padding-top: px;
+}
+
+
+h2 {
+    text-align: center;
+    Font-size (paragraph): 15px;
+    font-Weight: 400, 700;
+
+
+}
+
+.text1  {
+    font-family: 'Caveat', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Outfit', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+img {
+    margin-top: 0px;
+    margin: auto;
+    width: 95%;
+    height: 200px;
+    position: ;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+@media screen and (max-width: 375px) {
+        body {
+          width: 375px;
+        }
+      }
